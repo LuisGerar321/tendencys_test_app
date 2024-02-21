@@ -6,6 +6,7 @@ Desarrollar un contador en tiempo real utilizando sockets, ya sea en Node.js o P
 ### Preview Solution
 
 ![Texto alternativo](/images/socketTest.gif)
+![This is an alt text.](/images/terminal2.png "Running Front")
 
 ### Comments
 When I was making this app, the Envia Shipping Software's API was not working and kept giving me 400 errors.
