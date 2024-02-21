@@ -7,6 +7,19 @@ Desarrollar un contador en tiempo real utilizando sockets, ya sea en Node.js o P
 
 ![Texto alternativo](/images/socketTest.gif)
 
+### Comments
+When I was making this app, the Envia Shipping Software's API was not working and kept giving me 400 errors.
+
+![alt text](/images/error1.png)
+![alt text](/images/error2.png)
+![alt text](/images/error3.png)
+
+To get around the problem and finish the test on time, I changed the original code so it would pretend everything was okay.
+
+![alt text](images/errorSolution.png)
+
+Tank you!
+
 ## Pre-requisites
 * git installed on your machine
 * nodejs on your terminal
