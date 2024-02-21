@@ -1,4 +1,12 @@
 # Tendencys Test Backend
+
+### Instructions
+Desarrollar un contador en tiempo real utilizando sockets, ya sea en Node.js o PHP. Este contador debe incrementarse cada vez que se genere una guía a través de la API proporcionada. Es esencial que el contador persista entre pestañas para garantizar su actualización en tiempo real. A continuación, se detallan los pasos y puntos a tener en cuenta:
+
+### Preview Solution
+
+![Texto alternativo](/images/socketTest.gif)
+
 ## Pre-requisites
 * git installed on your machine
 * nodejs on your terminal
@@ -48,9 +56,13 @@ npm run watch
 ```
 npm run start
 ```
+![This is an alt text.](/images/terminal.png "Running Back")
+![This is an alt text.](/images/terminal2.png "Running Front")
 ## Testing the app
 
 ### Open two Chrome tabs with your Client Application URL, e.g., "http://localhost:3000/". You should see a delivery truck animation and a counter in each one.
+
+![This is an alt text.](/images/client.png "Running Front")
 
 ### To increment the shipping label counter in real time for all clients, you need to create a new Shipping Label. So, open your Postman App (an API testing tool that allows for easy validation of API responses) and make a new POST HTTP request to your backend "http://localhost:3001/shipping" with the following payload:
 
@@ -127,4 +139,6 @@ npm run start
         "comments": "comentarios de el envío"
     }
 }
+
 ```
+![Texto alternativo](/images/socketTest.gif)
