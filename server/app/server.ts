@@ -3,6 +3,7 @@ import { config } from "./config";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import cors from "cors";
+import ShippingLabelRoutes from "./routes/ShippingLabel";
 
 const { port, host } = config;
 const app = express();
@@ -24,6 +25,8 @@ const io = new Server(server, {
 app.get(`/test`, (req, res) => {
   res.send({ status: 200, message: "ok" });
 });
+
+app.use("/shipping", ShippingLabelRoutes);
 
 //Socket connections
 

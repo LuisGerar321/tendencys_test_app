@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "launch",
+        "name": "Launch via ts-node",
+        "runtimeArgs": ["-r", "ts-node/register"],
+        "args": ["${workspaceFolder}/app/main.ts"],
+        "cwd": "${workspaceFolder}",
+        "protocol": "inspector",
+        "internalConsoleOptions": "openOnSessionStart"
+      }
+    ]
+  }
+  
